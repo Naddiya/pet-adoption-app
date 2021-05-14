@@ -20,6 +20,8 @@
   },
   "homepage": "https://github.com/Naddiya/pet-adoption-app#readme",
   "devDependencies": {
+    "@babel/core": "^7.12.16",
+    "@babel/preset-react": "^7.12.13",
     "eslint": "^7.26.0",
     "eslint-config-prettier": "^8.3.0",
     "parcel": "^1.12.3",
@@ -28,5 +30,8 @@
   "dependencies": {
     "react": "^17.0.1",
     "react-dom": "^17.0.1"
-  }
+  },
+  "browserslist" : [
+    "last 2 Firefox versions"
+  ]
 }
