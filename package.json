@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "format": "prettier --write \"src/**/*.{js,jsx}\""
   },
   "repository": {
     "type": "git",
@@ -16,5 +17,8 @@
   "bugs": {
     "url": "https://github.com/Naddiya/pet-adoption-app/issues"
   },
-  "homepage": "https://github.com/Naddiya/pet-adoption-app#readme"
+  "homepage": "https://github.com/Naddiya/pet-adoption-app#readme",
+  "devDependencies": {
+    "prettier": "^2.3.0"
+  }
 }
