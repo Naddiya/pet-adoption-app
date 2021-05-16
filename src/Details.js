@@ -18,7 +18,8 @@ class Details extends Component {
                     loading: false
                 },
                 json.pets[0]
-            ));
+            )
+        );
     }
     render() {
         const { animal, breed, city, state, description, name } = this.state;
